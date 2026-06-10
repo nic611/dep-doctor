@@ -1,0 +1,15 @@
+{
+  "name": "dep-doctor",
+  "version": "2.0.0",
+  "description": "Dependency health scanner + fixer for enterprise React migration",
+  "bin": {
+    "dep-doctor": "./bin/dep-doctor.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node bin/dep-doctor.js",
+    "test": "node --test"
+  },
+  "keywords": ["dependency", "migration", "react", "audit", "fix"],
+  "license": "MIT"
+}

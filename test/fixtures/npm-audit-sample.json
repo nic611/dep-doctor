@@ -1,0 +1,39 @@
+{
+  "vulnerabilities": {
+    "nth-check": {
+      "name": "nth-check",
+      "severity": "high",
+      "range": "<2.0.1",
+      "via": [
+        {
+          "source": 1754,
+          "name": "nth-check",
+          "severity": "high",
+          "cve": "CVE-2021-3803",
+          "title": "Inefficient Regular Expression Complexity",
+          "url": "https://github.com/advisories/GHSA-rp65-9cf3-cjxr"
+        }
+      ],
+      "fixAvailable": { "name": "nth-check", "version": "2.1.1" }
+    },
+    "postcss": {
+      "name": "postcss",
+      "severity": "moderate",
+      "range": "<8.4.31",
+      "via": [
+        {
+          "source": 1091,
+          "name": "postcss",
+          "severity": "moderate",
+          "cve": "CVE-2023-44270",
+          "title": "PostCSS line return parsing error",
+          "url": "https://github.com/advisories/GHSA-7fh5-64p2-3v2j"
+        }
+      ],
+      "fixAvailable": { "name": "postcss", "version": "8.4.35" }
+    }
+  },
+  "metadata": {
+    "vulnerabilities": { "total": 2, "high": 1, "moderate": 1 }
+  }
+}

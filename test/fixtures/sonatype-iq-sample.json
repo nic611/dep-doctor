@@ -1,0 +1,41 @@
+{
+  "components": [
+    {
+      "displayName": "lodash",
+      "packageUrl": "pkg:npm/lodash@4.17.15",
+      "securityData": {
+        "securityIssues": [
+          {
+            "source": "cve",
+            "reference": "CVE-2020-8203",
+            "severity": 7.4,
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-8203",
+            "status": "Open"
+          },
+          {
+            "source": "cve",
+            "reference": "CVE-2021-23337",
+            "severity": 7.2,
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-23337",
+            "status": "Open"
+          }
+        ]
+      }
+    },
+    {
+      "displayName": "minimist",
+      "packageUrl": "pkg:npm/minimist@1.2.5",
+      "securityData": {
+        "securityIssues": [
+          {
+            "source": "cve",
+            "reference": "CVE-2021-44906",
+            "severity": 9.8,
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-44906",
+            "status": "Open"
+          }
+        ]
+      }
+    }
+  ]
+}
