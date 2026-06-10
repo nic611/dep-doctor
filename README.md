@@ -4,6 +4,8 @@ Dependency health scanner + auto-fixer for enterprise React migrations.
 
 Zero third-party dependencies — runs on Node.js built-ins only.
 
+<p align="center"><img src="assets/dep-doctor-demo.svg" width="560" alt="dep-doctor scan report" /></p>
+
 ## Why
 
 Migrating React 16 → 18 → 19 in enterprise projects means untangling hundreds of transitive dependencies, unmaintained packages, and peerDep conflicts. `dep-doctor` diagnoses the full landscape and auto-fixes what it can.
